@@ -1,0 +1,7 @@
+.body{
+    background-image:url("/src/components/images/about-img.jpg"); 
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-image: linear-gradient(to bottom right, #bcd9f7, #00cc14b9, #6fecfc, rgb(237, 198, 189));
+     */
+}

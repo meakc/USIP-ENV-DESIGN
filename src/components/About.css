@@ -1,0 +1,50 @@
+
+.about-container {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+    float: auto;
+  }
+  
+  h1 {
+    color: #defa53;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-indent: 30px;
+    color: #fff;
+  }
+
+  .about-container img{
+    width: 30%;
+    height: 10%;
+    animation: updown 3s linear infinite;
+  }
+  @keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.about-text{
+  padding: 5%;
+  margin:2%;
+  background-image: linear-gradient(to right , rgb(9, 229, 31) , rgb(7, 180, 228));
+  border-radius: 5%;
+}

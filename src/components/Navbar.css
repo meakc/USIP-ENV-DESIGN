@@ -1,0 +1,45 @@
+.navbar {
+    background-color:transparent;
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .navbar-logo img {
+    height: 30%;
+    width: 30%;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  
+  .navbar-item {
+    margin-right: 20px;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar-link:hover {
+    color: blueviolet;
+  }
+  
